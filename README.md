@@ -26,8 +26,12 @@ mkdir -p repository
 cd repository
 git clone --bare https://github.com/TimPietrusky/timpietrusky.com
 ```
-* 
 
+* TODO: Add missing steps
+* Add the bare repo as a remote on your local computer:
+```
+git remote add production ssh://timpietrusky-production:/home/tim/repository/timpietrusky.com.git
+```
 
 ### Contributing
 
@@ -40,4 +44,4 @@ To build the site locally you first need to [install Hugo](https://gohugo.io/ove
 
 All content is created by myself, Tim Pietrusky, if not stated otherwise. You may re-use code snippets from the theme as you like. However, re-distributing content or copying content and pretending it is yours is not allowed. If you wish to quote parts of articles you can do so.
 
-Software or code snippets inside of articles are generally available under [MIT license](https://opensource.org/licenses/MIT) if not stated otherwise and come with no warranty. 
+Software or code snippets inside of articles are generally available under [MIT license](https://opensource.org/licenses/MIT) if not stated otherwise and come with no warranty.
