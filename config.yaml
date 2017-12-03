@@ -22,16 +22,11 @@ menu:
       URL: "/archive/"
       Weight: 100
 
-    - Name: "Projects"
-      URL: "/projects/"
-      Weight: 200
-
 # Set permalinks, they can be content-type based!
 # Reference: http://gohugo.io/extras/permalinks/
 permalinks:
   # Posts should be linked under the site-root with their title.
   post: "/:title/"
-  project: "/projects/:title/"
 
 params:
   author:
