@@ -34,6 +34,8 @@ git clone --bare https://github.com/TimPietrusky/timpietrusky.com
 git remote add production ssh://timpietrusky-production:/home/tim/repository/timpietrusky.com.git
 ```
 
+Testing
+
 ### Contributing
 
 If you wish to contribute you can do so. Contributions can be anything from opening an Issue to actually fixing code.
