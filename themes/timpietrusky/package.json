@@ -1,7 +1,7 @@
 {
   "name": "kevingimbel.com",
   "description": "A Hugo based Blog and Portfolio.",
-  "author": "Kevin Gimbel",
+  "author": "Tim Pietrusky",
   "repository": "https://github.com/kevingimbel/kevingimbel.com",
   "devDependencies": {
     "gulp": "^3.9.0",

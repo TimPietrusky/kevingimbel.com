@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Defined in ~/.ssh/config
-remote_host="kvngmbl"
-remote_path="/home/kvngmbl/subdomains/html"
+remote_host="timpietrusky-production"
+remote_path="/home/tim/subdomains/html"
 local_source="public"
-live_url="https://kevingimbel.com"
+live_url="https://timpietrusky.com"
 
 echo "Preparing deploy"
 echo "========================="

@@ -1,8 +1,8 @@
 [build]
   publish = "public"
-  command = "hugo -b=\"https://www.kevingimbel.com\""
+  command = "hugo -b=\"https://www.timpietrusky.com\""
 
 [context.production.environment]
-  HUGO_VERSION = "0.25.1"
+  HUGO_VERSION = "0.31.1"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"

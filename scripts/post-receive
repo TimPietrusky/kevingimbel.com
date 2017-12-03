@@ -5,19 +5,20 @@
 source ~/.bash_profile
 
 # Path to the bare git repo for the project
-repository_path=$HOME/repositories/kevingimbel.com
+repository_path=$HOME/repository/timpietrusky.com.git
 
-# Path to the project itself
-project_path=$HOME/subdomains/html
+# Generated site
+project_path=$HOME/timpietrusky.com
 
-# Hugo source
-hugo_file_path=$HOME/hugosrc
+# Source of the site
+hugo_file_path=$HOME/repository/clone
 
 # CSS file location
-css_path=$hugo_file_path/themes/kevingimbel/static/css
+css_path=$hugo_file_path/themes/timpietrusky/static/css
 css_file=$css_path/style.css
+
 # Template where CSS file is included
-base_theme_file=$hugo_file_path/themes/kevingimbel/layouts/_default/baseof.html
+base_theme_file=$hugo_file_path/themes/timpietrusky/layouts/_default/baseof.html
 
 # Iterate over all branches (git push --all)
 while read oldrev newrev refname
@@ -41,6 +42,6 @@ do
       # replace name in template before hugo is build
       sed -i "s/style\.css/${new_css_file_name}/g" $base_theme_file
 
-      hugo -b="https://kevingimbel.com" -d="$project_path" -s="$hugo_file_path"
+      hugo -b="https://timpietrusky.com" -d="$project_path" -s="$hugo_file_path"
     fi
 done

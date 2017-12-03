@@ -1,10 +1,10 @@
 ---
-title: "Kevin Gimbel - Developer"
+title: "Tim Pietrusky - Developer"
 ---
 
 <section class="side-by-side side-by-side__first">
 <div class="small bg">
-<h1>Hi, I'm Kevin Gimbel</h1>
+<h1>Hi, I'm Tim Pie</h1>
 <h2>I'm a Full-Stack Developer with a strong focus on Front-End Development</h2>
 <p>I like video games and love all kinds of art, from traditional pantings to modern urban art. Art has always been a part of my life, either active or passive.</p>
 </div>

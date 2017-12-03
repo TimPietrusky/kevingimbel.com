@@ -2,7 +2,7 @@
 title: "Imprint"
 ---
 
-Responsible for the content of this site: [Kevin Gimbel](/about/).
+Responsible for the content of this site: [Tim Pietrusky](/about/).
 
 Message me at hallo@thissite or hit me up on [Twitter @_kevinatari](https://twitter.com/_kevinatari) if you need to get in contact.
 
